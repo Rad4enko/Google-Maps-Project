@@ -1,0 +1,20 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.leftPane {
+    flex: 1; /* Левая часть занимает 1/3 ширины экрана */
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.rightPane {
+    flex: 2; /* Правая часть занимает 2/3 ширины экрана */
+}
+
+.mapContainer {
+    width: 100%;
+    height: 100%;
+}
